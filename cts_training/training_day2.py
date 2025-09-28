@@ -42,8 +42,8 @@
 
 
 s = input()
-
+res = ""
 for i in range(len(s)):
-    print(s[len(s)-1 - i],end= " ")
-    
+    res+=s[len(s)-1 - i]
+
     
